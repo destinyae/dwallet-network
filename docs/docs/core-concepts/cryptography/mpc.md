@@ -12,7 +12,7 @@ MPC is based on rounds of communication between the parties for the computation 
 
 ## TSS - Threshold Signature Scheme
 
-The basic authentication method in blockchain is based on public key cryptography, i.e. a private/public key pair, where the holder of the private key has full control over the blockchain address associated with its public key, using cryptographiic signatures, with the widely popular ECDSA being the most common one in blockchains.
+The basic authentication method in blockchain is based on public key cryptography, i.e. a private/public key pair, where the holder of the private key has full control over the blockchain address associated with its public key, using cryptographic signatures, with the widely popular ECDSA being the most common one in blockchains.
 
 The single point of failure created by private keys has been addressed with MPC, in the form of Threshold Signature Schemes, specifically Threshold ECDSA protocols. Most MPC protocols preceding 2PC-MPC were either a two party protocol, where 2 parties are required to generate an EDSA signature together instead of a single private key, or a t-of-n protocol defining a threshold t out of n parties that can generate an ECDSA signature.
 
